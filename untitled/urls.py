@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("",views.index,name='index'),
     path('QinJ/',views.QinJ,name='QinJ'),
-    path("htj/",views.htj,name='htj')
+    path("htj/",views.htj,name='htj'),
+    path('mt/',views.mt,name="mt")
 ]

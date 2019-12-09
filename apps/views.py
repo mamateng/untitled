@@ -14,3 +14,5 @@ def QinJ(request):
 def htj(request):
     return render(request,'htj.html')
 
+def mt(request):
+    return render(request,'')
